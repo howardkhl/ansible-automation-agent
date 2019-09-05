@@ -125,6 +125,8 @@ server1 | FAILED | rc=3 >>
 mongodb-mms-automation-agent: unrecognized service
                    Or
 mongodb-mms-automation-agent is NOT running
+                   Or
+Unit mongodb-mms-automation-agent.service could not be found.non-zero return code
 ```
 If the result shows Automation Agent is already running on a remote host. You should take it off the list of `hosts` and inspect it manually. It may be already automated by Ops Manager.
 
